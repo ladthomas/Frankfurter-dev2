@@ -14,7 +14,6 @@ devise de son choix, ou convertir le montant indiqué dans toutes les devises di
 ## Prérequis
 
 - HTML
-- CSS
 - JS
 
 ## Documentation
