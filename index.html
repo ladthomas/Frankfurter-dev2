@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="api de conversion de monnaie">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <title>Frankfurter</title>
+</head>
+<body>
+    <h1>Converstisseur</h1>
+
+  <form id="conversionForm">
+    <label for="amount">Montant à convertir :</label>
+    <input type="number" id="amount" required>
+
+    <label for="fromCurrency">Devises de base :</label>
+    <select id="fromCurrency" required>
+    </select>
+
+    <label for="toCurrency">Devises de conversion :</label>
+    <select id="toCurrency" required>
+    </select>
+
+    <button type="button" onclick="convertCurrency()">Convertir</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="./main.js"></script>
+
+</body>
+</html>
