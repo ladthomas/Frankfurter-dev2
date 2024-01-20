@@ -15,6 +15,7 @@ devise de son choix, ou convertir le montant indiqué dans toutes les devises di
 
 - HTML
 - JS
+- CSS ( water css)
 
 ## Documentation
 
